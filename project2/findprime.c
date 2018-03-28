@@ -143,7 +143,7 @@ int main(int argc, char *argv[])
   count = 0;
   if (!id) {
     count = 1; // add 2 in the final prime list
-    // printf(" 2 ");
+    printf(" 2 ");
   }
   for (i=0; i<size; i++) {
     if (!marked[i]) {
